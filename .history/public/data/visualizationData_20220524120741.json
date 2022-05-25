@@ -1,0 +1,24 @@
+[
+    {
+        "picture_src":"BarsBottom"
+    },
+    {
+        "picture_src":"BarsCenter"
+    },
+    {
+        "picture_src":"Bars-Center-#3CADFF",
+        "color":"#3CADFF"
+    },
+    {
+        "picture_src":"Bars-Center-#70DB74",
+        "color":"#70DB74"
+    },
+    {
+        "picture_src":"Bars-Center-#A46CFF",
+        "color":"#A46CFF"
+    },
+    {
+        "picture_src":"Bars-Center-#FFAC46",
+        "color":"#FFAC46"
+    }
+]

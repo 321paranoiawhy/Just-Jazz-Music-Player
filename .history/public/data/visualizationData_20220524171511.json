@@ -1,0 +1,21 @@
+[
+    {
+        "picture_src":"BarsBottom"
+    },
+    {
+        "picture_src":"BarsCenter"
+    },
+    {
+        "picture_src":"BarsUp"
+    },
+
+    {
+        "picture_src":"Curve"
+    },
+    {
+        "picture_src":"CircleBarsCenter"
+    },
+    {
+        "picture_src":"WaterWaves"
+    }
+]

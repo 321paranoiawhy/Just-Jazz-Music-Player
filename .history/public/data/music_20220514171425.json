@@ -1,0 +1,21 @@
+[
+    {
+        "#": "1",
+        "picture_src": "../assets/images/fly-me-to-the-moon-小野丽莎.webp",
+        "title": "Fly Me To The Moon",
+        "artist": "小野丽莎",
+        "play_count": "1",
+        "time": "3:41",
+        "album": "Cheek To Cheek-Jazz Standards from RIO-"
+    },
+    {
+        "#": "2",
+        "picture_src": "../assets/images/Jazz-Cafe-Presents-Terumasa-Hino.webpp",
+        "title": "Sweet Love of Mine",
+        "artist": "日野皓正 Terumasa Hino",
+        "play_count": "1",
+        "time": "3:41",
+        "album": "Cheek To Cheek-Jazz Standards from RIO-"
+    }
+
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "picture_src":"TeenyiconsHomeOutline",
+        "content":"Home"
+    },
+    {
+        "picture_src":"TeenyiconsTrendUpSolid",
+        "content":"Trends"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Library"
+    },
+    {
+        "picture_src":"IcOutlineNextWeek",
+        "content":"Discover Weekly"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Made For You"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Daily Mix"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Liked Songs"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Favorite Artists"
+    },
+    {
+        "picture_src":"PhMusicNotesSimple",
+        "content":"Playlist"
+    }
+]
