@@ -16,14 +16,8 @@
             />
             <!-- 搜索框 input -->
             <div class="form">
-                <!-- label for 对应于 input id -->
-                <input
-                    type="text"
-                    placeholder=" "
-                    autocomplete="off"
-                    id="search"
-                />
-                <label for="search">Search...</label>
+                <input type="text" placeholder=" " autocomplete="off" />
+                <label for="">Search...</label>
                 <img src="../assets/images/IcRoundSearch.svg" alt="" />
             </div>
         </div>
@@ -743,7 +737,7 @@ export default {
             // 右外边距 30px
             margin-right: 30px;
         }
-        // Chrome/Safari/Opera浏览器 内核 WebKit/Blink (-webkit 前缀)
+        // Chrome/Sarfri/Opera浏览器 内核 WebKit/Blink (-webkit 前缀)
         // Firefox 等其他浏览器 内核 Gecko (-moz 前缀)
         // IE 浏览器 内核 Trident (ms 前缀)
         // 参考链接: https://www.quirksmode.org/blog/archives/2015/11/styling_and_scr.html

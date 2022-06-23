@@ -16,14 +16,8 @@
             />
             <!-- 搜索框 input -->
             <div class="form">
-                <!-- label for 对应于 input id -->
-                <input
-                    type="text"
-                    placeholder=" "
-                    autocomplete="off"
-                    id="search"
-                />
-                <label for="search">Search...</label>
+                <input type="text" placeholder=" " autocomplete="off" />
+                <label>Search...</label>
                 <img src="../assets/images/IcRoundSearch.svg" alt="" />
             </div>
         </div>
@@ -172,12 +166,13 @@
                 @click="mute()"
             />
             <div class="adjust-volume">
-                <!-- 父组件获取子组件的值 -->
-                <VerticalSlider
-                    @getVolume="adjustVolume"
-                    class="slider-show"
-                    title="player.volume"
-                ></VerticalSlider>
+                <div class="slider-show">
+                    <!-- 父组件获取子组件的值 -->
+                    <VerticalSlider
+                        @getVolume="adjustVolume"
+                        title="player.volume"
+                    ></VerticalSlider>
+                </div>
                 <img
                     src="../assets/images/IcOutlineVolumeUp.svg"
                     alt=""
@@ -682,7 +677,7 @@ export default {
             flex: 1;
             text-align: center;
         }
-        // TODO 可能与使用了组件 VerticalSlider 有关 (待验证)
+        // TODO
         & .adjust-volume {
             // 父 相对定位 (子绝父相)
             position: relative;
@@ -695,7 +690,7 @@ export default {
                 left: -46px;
                 top: -60px;
             }
-            &:hover .slider-show {
+            & :hover .slider-show {
                 // 显示滚动条
                 display: block;
             }
@@ -743,7 +738,7 @@ export default {
             // 右外边距 30px
             margin-right: 30px;
         }
-        // Chrome/Safari/Opera浏览器 内核 WebKit/Blink (-webkit 前缀)
+        // Chrome/Sarfri/Opera浏览器 内核 WebKit/Blink (-webkit 前缀)
         // Firefox 等其他浏览器 内核 Gecko (-moz 前缀)
         // IE 浏览器 内核 Trident (ms 前缀)
         // 参考链接: https://www.quirksmode.org/blog/archives/2015/11/styling_and_scr.html
